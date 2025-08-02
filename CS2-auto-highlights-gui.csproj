@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>CS2_auto_highlights_gui</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AppSettings.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Models\AppSettings.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="DemoFile.Game.Cs" Version="0.31.1" />
+    <PackageReference Include="obs-websocket-dotnet" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>
