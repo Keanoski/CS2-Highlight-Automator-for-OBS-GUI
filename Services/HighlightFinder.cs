@@ -16,7 +16,7 @@ namespace HighlightReel.Services
     {
         private const int TickRate = 64;
         private const int MaxTickGap = 10 * TickRate;
-        private const int MinKills = 2;
+        private const int MinKills = 4;
 
         public static async Task<List<Highlight>> FindHighlightsAsync(string demoPath)
         {
