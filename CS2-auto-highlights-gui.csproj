@@ -11,9 +11,11 @@
 
   <ItemGroup>
     <Compile Remove="AppSettings.cs" />
+    <Compile Remove="Models\AppSettingsValues.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Models\AppSettingsValues.cs" />
     <None Include="Models\AppSettings.cs" />
   </ItemGroup>
 
