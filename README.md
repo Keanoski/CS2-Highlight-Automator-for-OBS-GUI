@@ -8,13 +8,10 @@ A WPF desktop application that automatically finds multi-kill highlights from yo
 * **OBS Integration:** Connects to OBS via the WebSocket plugin to automatically start and stop recording for each highlight.
 * **Detailed Information:** Extracts round number, total damage dealt, and weapons used for each highlight.
   
-##  Getting Started
 
-Follow these instructions to get the application running on your local machine.
 
 ### Prerequisites
 
-* Windows 10 or later
 * [.NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 * [OBS Studio](https://obsproject.com/)
 * [OBS-Websocket Plugin](https://github.com/obsproject/obs-websocket/releases) (usually included with recent versions of OBS Studio)
