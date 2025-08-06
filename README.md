@@ -1,3 +1,4 @@
+## ---Work In Progress---
 #  CS2 Highlight Automator for OBS
 
 A WPF desktop application that automatically finds multi-kill highlights from your Counter-Strike 2 demo files and records them using OBS Studio.
